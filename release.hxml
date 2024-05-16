@@ -1,2 +1,22 @@
 --class-path source
 --class-path mod_source
+
+# Main Libraries
+--class-path .haxelib/flixel/git
+--class-path .haxelib/flixel-addons/git
+--class-path .haxelib/flixel-ui/git
+--class-path .haxelib/lime/git
+--class-path .haxelib/openfl/git
+--class-path .haxelib/polymod/git
+
+# API libraries
+--class-path .haxelib/hxgamejolt-api/1,2,0
+--class-path .haxelib/newgrounds/2,0,3
+
+# Additional Libraries
+--class-path .haxelib/discord_rpc/git
+--class-path .haxelib/hxcpp/4,3,2
+--class-path .haxelib/hxcs/4,2,0
+--class-path .haxelib/hxjava/4,2,0
+
+--remap flash:openfl

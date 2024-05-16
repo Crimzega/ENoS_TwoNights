@@ -1,0 +1,117 @@
+{
+	"disableFormatting": false,
+	"emptyLines": {
+		"afterLeftCurly": "keep",
+		"beforeRightCurly": "keep",
+		"abstractEmptyLines": {
+			"afterVars": 1,
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"afterStaticFunctions": 1,
+			"afterStaticVars": 0,
+			"betweenVars": 0,
+			"existingBetweenFields": "remove",
+			"endType": 1
+		},
+		"classEmptyLines": {
+			"afterPrivateFunctions": 1,
+			"afterVars": 1,
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"betweenStaticFunctions": 1,
+			"afterStaticVars": 0,
+			"betweenVars": 0,
+			"existingBetweenFields": "remove",
+			"endType": 1
+		},
+		"enumEmptyLines": {
+			"beginType": 1,
+			"betweenFields": 0,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"enumAbstractEmptyLines": {
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"externClassEmptyLines": {
+			"afterVars": 1,
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"betweenVars": 0,
+			"endType": 0,
+			"existingBetweenFields": "remove"
+		},
+		"interfaceEmptyLines": {
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"typedefEmptyLines": {
+			"beginType": 1,
+			"betweenFields": 0,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		}
+	},
+	"indentation": {
+		"character": "tab",
+		"tabWidth": 4,
+		"trailingWhitespace": false
+	},
+	"lineEnds": {
+		"leftCurly": "after",
+		"rightCurly": "both",
+		"typedefCurly": {
+			"leftCurly": "after",
+			"rightCurly": "both"
+		}
+	},
+	"sameLine": {
+		"elseBody": "keep",
+		"doWhile": "next",
+		"ifBody": "same",
+		"ifElse": "next",
+		"tryCatch": "next"
+	},
+	"whitespace": {
+		"bracesConfig": {
+			"anonTypeBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneBefore",
+				"removeInnerWhenEmpty": true
+			},
+			"blockBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneBefore",
+				"removeInnerWhenEmpty": true
+			},
+			"objectLiteralBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneAfter",
+				"removeInnerWhenEmpty": true
+			},
+			"typedefBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneAfter",
+				"removeInnerWhenEmpty": true
+			},
+			"unknownBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneAfter",
+				"removeInnerWhenEmpty": true
+			}
+		},
+		"compressSuccessiveParenthesis": true,
+		"ifPolicy": "noneAfter",
+		"forPolicy": "noneAfter",
+		"switchPolicy": "noneAfter",
+		"whilePolicy": "noneAfter"
+	},
+	"wrapping": {
+		"maxLineLength": 120
+	}
+}
