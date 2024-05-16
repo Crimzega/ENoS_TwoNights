@@ -1,0 +1,3 @@
+.haxelib/
+.vscode/
+source/com/sulvic/enos/tn/api/ApiHelper.hx

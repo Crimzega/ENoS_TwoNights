@@ -1,0 +1,86 @@
+{
+	"dependencies": [
+		{
+			"name": "discord_rpc",
+			"type": "git",
+			"dir": null,
+			"ref": "2d83fa863ef0c1eace5f1cf67c3ac315d1a3a8a5",
+			"url": "https://github.com/Aidan63/linc_discord-rpc"
+		},
+		{
+			"name": "flixel",
+			"type": "git",
+			"dir": null,
+			"ref": "d2f3ae252ab6dc570c963b05cc6da7578ff101ff",
+			"url": "https://github.com/HaxeFlixel/flixel"
+		},
+		{
+			"name": "flixel-addons",
+			"type": "git",
+			"dir": null,
+			"ref": "2759aff3d6f024b38aa4c4bfc30f93ad501292d7",
+			"url": "https://github.com/HaxeFlixel/flixel-addons"
+		},
+		{
+			"name": "flixel-ui",
+			"type": "git",
+			"dir": null,
+			"ref": "719b4f10d94186ed55f6fef1b6618d32abec8c15",
+			"url": "https://github.com/HaxeFlixel/flixel-ui"
+		},
+		{
+			"name": "hxgamejolt-api",
+			"type": "haxelib",
+			"version": "1.2.0"
+		},
+		{
+			"name": "hxcpp",
+			"type": "haxelib",
+			"version": "4.3.2"
+		},
+		{
+			"name": "hxcs",
+			"type": "haxelib",
+			"version": "4.2.0"
+		},
+		{
+			"name": "hxjava",
+			"type": "haxelib",
+			"version": "4.2.0"
+		},
+		{
+			"name": "hxcpp-debug-server",
+			"type": "git",
+			"dir": "hxcpp-debug-server",
+			"ref": "147294123f983e35f50a966741474438069a7a8f",
+			"url": "https://github.com/FunkinCrew/hxcpp-debugger"
+		},
+		{
+			"name": "lime",
+			"type": "git",
+			"dir": null,
+			"ref": "d2ea41570bc195bd3c1ded9e67a2881b3cf31df2",
+			"url": "https://github.com/openfl/lime"
+		},
+		{
+			"name": "newgrounds",
+			"type": "haxelib",
+			"dir": null,
+			"version": "2.0.3"
+		},
+		{
+			"name": "openfl",
+			"type": "git",
+			"dir": null,
+			"ref": "b99d7807ba8295de4dcc998311f5b7193ce15778",
+			"url": "https://github.com/openfl/openfl"
+		},
+		{
+			"name": "polymod",
+			"type": "git",
+			"dir": null,
+			"ref": "8553b800965f225bb14c7ab8f04bfa9cdec362ac",
+			"url": "https://github.com/larsiusprime/polymod"
+		}
+	]
+}
