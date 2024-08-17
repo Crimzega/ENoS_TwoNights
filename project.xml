@@ -1,5 +1,22 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <project xmlns="http://lime.openfl.org/project/1.0.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://lime.openfl.org/project/1.0.4 http://lime.openfl.org/xsd/project-1.0.4.xsd">
-	<meta build-number="1" company="SulvicSystem" package="com.sulvic.enos.tn" title="ENoS: Two Nights" version="1.0.0" />
+	<meta company="SulvicSystem" package="com.sulvic.enos.tn" title="ENoS: Two Nights" version="1.0.0" />
+	<app main="com.sulvic.enos.tn.TwoNightsEngine" preloader="com.sulvic.enos.tn.ui.preloader.EnginePreloader" />
+	<app file="sulvic_funkin" if="web" />
+	<window background="#000000" fps="120" hardware="true" height="720" orientation="landscape" resizable="true"
+		width="1280" vsync="false" />
+	<window borderless="true" if="ENABLE_BORDERLESS" />
+	<window fps="60" if="web" />
+	<!-- Common Libraries -->
+	<haxelib name="flixel" path=".haxelib/flixel" />
+	<haxelib name="flixel-addons" path=".haxelib/flixel-addons" />
+	<haxelib name="flixel-ui" path=".haxelib/flixel-ui" />
+	<haxelib name="lime" path=".haxelib/lime" />
+	<haxelib name="openfl" path=".haxelib/openfl" />
+	<haxelib name="newgrounds" path=".haxelib/polymod" />
+	<!-- API libraries -->
+	<haxelib name="discord_rpc" path=".haxelib/discord_rpc" />
+	<haxelib name="hxgamejolt-api" path=".haxelib/hxgamejolt-api" />
+	<haxelib name="newgrounds" path=".haxelib/newgrounds" />
 </project>

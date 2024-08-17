@@ -29,6 +29,11 @@
 			"url": "https://github.com/HaxeFlixel/flixel-ui"
 		},
 		{
+			"name": "format",
+			"type": "haxelib",
+			"version": "3.5.0"
+		},
+		{
 			"name": "hxgamejolt-api",
 			"type": "haxelib",
 			"version": "1.2.0"
@@ -37,6 +42,13 @@
 			"name": "hxcpp",
 			"type": "haxelib",
 			"version": "4.3.2"
+		},
+		{
+			"name": "hxcpp-debug-server",
+			"type": "git",
+			"dir": "hxcpp-debug-server",
+			"ref": "147294123f983e35f50a966741474438069a7a8f",
+			"url": "https://github.com/FunkinCrew/hxcpp-debugger"
 		},
 		{
 			"name": "hxcs",
@@ -49,11 +61,9 @@
 			"version": "4.2.0"
 		},
 		{
-			"name": "hxcpp-debug-server",
-			"type": "git",
-			"dir": "hxcpp-debug-server",
-			"ref": "147294123f983e35f50a966741474438069a7a8f",
-			"url": "https://github.com/FunkinCrew/hxcpp-debugger"
+			"name": "hxp",
+			"type": "haxelib",
+			"version": "1.3.0"
 		},
 		{
 			"name": "lime",

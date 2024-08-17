@@ -1,4 +1,4 @@
-package com.sulvic.enos.tn.api;
+package com.sulvic.enos_tn.api;
 
 import flixel.addons.api.FlxGameJolt;
 

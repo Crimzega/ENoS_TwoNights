@@ -1,10 +1,10 @@
-package com.sulvic.enos.tn.input;
+package com.sulvic.enos_tn.input;
 
 import flixel.input.FlxInput;
-import flixel.input.keyboard.FlxKey;
 import flixel.input.actions.FlxAction;
 import flixel.input.actions.FlxActionInput;
 import flixel.input.actions.FlxActionInputDigital;
+import flixel.input.keyboard.FlxKey;
 
 /**
  * @author Crimzega
@@ -13,20 +13,31 @@ class Binding{
 
 	private var mainAction:FlxActionDigital;
 
-	public function new(name:String){ mainAction = new FlxActionDigital(name); }
+	public function new(name:String){
+		mainAction = new FlxActionDigital(name);
+	}
 
-	public function getActions():Array<FlxActionDigital>{ return [mainAction]; }
+	public function getActions():Array<FlxActionDigital>{
+		return [mainAction];
+	}
 
-	public function checkMainAction():Bool{ return mainAction.check(); }
+	public function checkMainAction():Bool{
+		return mainAction.check();
+	}
 
-	public function getMainAction():FlxActionDigital{ return mainAction; }
+	public function getMainAction():FlxActionDigital{
+		return mainAction;
+	}
 
-	public function bindMainActionKeys(keys:Array<FlxKey>):Void{ for(key in keys) mainAction.addKey(key, FlxInputState.PRESSED); }
+	public function bindMainActionKeys(keys:Array<FlxKey>):Void{
+		for(key in keys)
+			mainAction.addKey(key, FlxInputState.PRESSED);
+	}
 
 	public function replaceMainActionKey(replacing:FlxKey, replacement:FlxKey):Void{
 		for(i in 0...mainAction.inputs.length){
 			var input:FlxActionInput = mainAction.inputs[i];
-			if(input.device == FlxInputDevice.KEYBOARD && input.inputID == replacing){
+			if(input.device == FlxInputDevice.KEYBOARD && input.inputID == replacing) {
 				@:privateAccess
 				mainAction.inputs[i].inputID = replacement;
 			}

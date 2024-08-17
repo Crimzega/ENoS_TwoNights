@@ -1,7 +1,7 @@
-package com.sulvic.enos.tn;
+package com.sulvic.enos_tn;
 
-import com.sulvic.enos.tn.api.ApiHelper;
-import com.sulvic.enos.tn.states.TitleState;
+import com.sulvic.enos_tn.api.ApiHelper;
+import com.sulvic.enos_tn.states.TitleState;
 import flixel.FlxGame;
 import flixel.FlxState;
 import openfl.Lib;
