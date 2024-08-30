@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-console" />
+		<title>::PROGRAM_TITLE::</title>
+		::if favicons::::foreach(favicons)::<link href="::__current__.href::" rel="::__current__.rel::" type="::__current__.type::" />::end::::end::
+		::if linkedLibraries::::foreach(linkedLibraries)::<script src="::__current__::"></script>::end::::end::
+		<script src="::PROGRAM_FILE::"></script>
+		<script>
+		window.addEventListener("touchmove", function(evt){
+			evt.preventDefault();
+		}, {
+			capture: false,
+			passive: false
+		});
+		if(typeof window.devicePixelRatio != "undefined" && window.devicePixelRatio > 2){
+			var meta = document.querySelector(`meta[name="viewport"]`);
+			meta.setAttribute("content", `width=device-width, initial-scale=${2 / window.devicePixelRatio}, user-scalable=no`);
+		}
+		</script>
+		<style>
+		::foreach(assets)::::if(type == "font")::::if(cssFontFace)::::cssFontFace::::end::::end::::end::
+		html, body{
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+		}
+		enos-project.lime_project{
+			::if PROGRAM_BACKGROUND::background-color: #000000;::end::
+			height: ::if(PROGRAM_RESIZE)::100%::elseif(PROGRAM_HEIGHT > 0)::::PROGRAM_HEIGHT::px::else::100%::end::;
+			width: ::if(PROGRAM_RESIZE)::100%::elseif(PROGRAM_WIDTH > 0)::::PROGRAM_WIDTH::px::else::100%::end::;
+		}
+		</style>
+	</head>
+	<body>
+		<enos-project class="lime_project"></enos-project>
+	</body>
+	<script>
+		lime.embed("::PROGRAM_SHORTHAND::", "enos-project.lime_project", ::PROGRAM_WIDTH::, ::PROGRAM_HEIGHT::);
+	</script>
+</html>

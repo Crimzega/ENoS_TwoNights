@@ -21,7 +21,6 @@
 # Defines
 --define html5
 --define js-es=6
---define js-source-map
 --define js-unflatten
 --define web
 
@@ -30,8 +29,8 @@
 --macro lime._internal.macros.DefineMacro.run()
 --macro keep("IntIterator")
 --macro flixel.system.macros.FlxDefines.run()
---macro exclude("com.sulvic.enos_tn._entry", true);
---macro keep("com.sulvic.enos_tn._entry.FunkinWebApplication")
+--macro exclude("com.sulvic.enos_tn._entry", true)
+--macro keep("com.sulvic.enos_tn._entry.TwoNightsApplication")
 
 # Resource
 
@@ -41,5 +40,5 @@
 --remap flash:openfl
 
 # JavaScript
---js export/html5/sulvic_funkin.js
---main com.sulvic.enos_tn.FunkinApplication
+--js exports/html5/sulvic_funkin.js
+--main com.sulvic.enos_tn._entry.TwoNightsApplication

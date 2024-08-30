@@ -2,17 +2,10 @@ package com.sulvic.enos_tn.states;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.addons.transition.FlxTransitionSprite;
-import flixel.addons.transition.FlxTransitionableState;
-import flixel.addons.transition.TransitionData;
 import flixel.addons.ui.FlxUIState;
-import flixel.graphics.FlxGraphic;
-import flixel.math.FlxPoint;
-import flixel.math.FlxRect;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import openfl.Assets;
 import polymod.Polymod;
 
 class TitleState extends FlxUIState{
@@ -50,35 +43,16 @@ class TitleState extends FlxUIState{
 
 	private function startTitle():Void{
 		if(!initialized) {
-			var diamond:FlxGraphic = FlxGraphic.fromClass(GraphicTransTileDiamond);
-			diamond.persist = true;
-			diamond.destroyOnNoUse = false;
-			FlxTransitionableState.defaultTransIn = new TransitionData(FADE, FlxColor.BLACK, 1, new FlxPoint(0, -1), {
-				asset: diamond,
-				width: 32,
-				height: 32
-			},
-				new FlxRect(-200, -200, FlxG.width + 1.4, FlxG.height * 1.4));
-			FlxTransitionableState.defaultTransOut = new TransitionData(FADE, FlxColor.BLACK, 0.7, new FlxPoint(0, 1),
-				{
-					asset: diamond,
-					width: 32,
-					height: 32
-				},
-				new FlxRect(-200, -200, FlxG.width + 1.4, FlxG.height * 1.4));
-		}
-		if(FlxG.sound.music == null || !FlxG.sound.music.playing) {
-			FlxG.sound.playMusic("assets/common/music/testing.wav");
+			initialized = true;
 		}
 		persistentUpdate = true;
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		add(bg);
-		//		var playText:FlxText = new FlxText(10, 30, 0, "Play");
-		//		playText.setFormat("Arial", 24, FlxColor.WHITE);
-		//		add(playText);
-		var playText:FlxText = new FlxText(10, 30, 0, "Play");
+		var logo:FlxSprite = new FlxSprite().loadGraphic("assets/title_logo_xpmt.png");
+		logo.setPosition((FlxG.stage.width - logo.width) / 2, 40);
+		var playText:FlxText = new FlxText(10, 90, 0, "Play");
 		playText.setFormat("Arial", 36, FlxColor.YELLOW);
-		var optionsText:FlxText = new FlxText(10, 60, 0, "Options");
+		var optionsText:FlxText = new FlxText(10, 120, 0, "Options");
 		optionsText.setFormat("Arial", 24, FlxColor.WHITE);
 		add(optionsText);
 		if(initialized) skipIntro();
