@@ -1,0 +1,63 @@
+{
+	"[haxe]": {
+		"editor.defaultFormatter": "nadako.vshaxe",
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "never"
+		},
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true
+	},
+	"editor.detectIndentation": true,
+	"editor.insertSpaces": false,
+	"editor.rulers": [160],
+	"files.eol": "\n",
+	"files.associations": {
+		"*.prettierrc": "json",
+		"*.haxe": "haxe",
+		"*.hscript": "haxe",
+		"*.hxc": "haxe",
+		"*.hxp": "haxe",
+		"*.hxs": "haxe",
+		"*.meta": "json"
+	},
+	"files.exclude": {
+		"**/.haxelib": true,
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true
+	},
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"haxe.displayServer": {
+		"arguments": ["-v"]
+	},
+	"haxe.enableCompilationServer": false,
+	"haxe.enableServerView": true,
+	"haxecheckstyle.codeSimilarityBufferSize": 160,
+	"haxecheckstyle.configurationFile": "/haxe/project/checkstyle.json",
+	"haxe.renameSourceFolders": ["source"],
+	"prettier.bracketSpacing": false,
+	"prettier.printWidth": 160,
+	"projectManager.git.baseFolders": ["./"],
+	"xml.format.emptyElements": "collapse",
+	"xml.format.enforceQuoteStyle": "preferred",
+	"xml.format.joinCDATALines": true,
+	"xml.format.maxLineWidth": 160,
+	"xml.format.preserveAttributeLineBreaks": false,
+	"xml.format.preservedNewlines": 0,
+	"xml.format.splitAttributesIndentSize": 1
+}

@@ -11,22 +11,22 @@
 			"name": "flixel",
 			"type": "git",
 			"dir": null,
-			"ref": "d2f3ae252ab6dc570c963b05cc6da7578ff101ff",
-			"url": "https://github.com/HaxeFlixel/flixel"
+			"ref": "f2b090d6c608471e730b051c8ee22b8b378964b1",
+			"url": "https://github.com/FunkinCrew/flixel"
 		},
 		{
 			"name": "flixel-addons",
 			"type": "git",
 			"dir": null,
-			"ref": "2759aff3d6f024b38aa4c4bfc30f93ad501292d7",
-			"url": "https://github.com/HaxeFlixel/flixel-addons"
+			"ref": "7424db4e9164ff46f224a7c47de1b732d2542dd7",
+			"url": "https://github.com/FunkinCrew/flixel-addons"
 		},
 		{
-			"name": "flixel-ui",
+			"name": "flxanimate",
 			"type": "git",
 			"dir": null,
-			"ref": "719b4f10d94186ed55f6fef1b6618d32abec8c15",
-			"url": "https://github.com/HaxeFlixel/flixel-ui"
+			"ref": "0654797e5eb7cd7de0c1b2dbaa1efe5a1e1d9412",
+			"url": "https://github.com/Dot-Stuff/flxanimate"
 		},
 		{
 			"name": "format",
@@ -69,8 +69,8 @@
 			"name": "lime",
 			"type": "git",
 			"dir": null,
-			"ref": "d2ea41570bc195bd3c1ded9e67a2881b3cf31df2",
-			"url": "https://github.com/openfl/lime"
+			"ref": "fe3368f611a84a19afc03011353945ae4da8fffd",
+			"url": "https://github.com/FunkinCrew/lime"
 		},
 		{
 			"name": "newgrounds",

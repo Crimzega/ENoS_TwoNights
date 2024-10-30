@@ -1,0 +1,66 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"api_version": {
+			"pattern": "^(\\d+)\\.(\\d+)\\.(\\d+)(?:[-]([a-z0-9.-]+))?(?:[+]([a-z0-9.-]+))?$",
+			"type": "string"
+		},
+		"author": {
+			"default": "",
+			"type": "string"
+		},
+		"contributors": {
+			"default": [],
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"email": {
+						"default": "",
+						"type": "string"
+					},
+					"name": {
+						"default": "",
+						"type": "string"
+					},
+					"role": {
+						"default": "",
+						"type": "string"
+					},
+					"url": {
+						"default": "",
+						"type": "string"
+					}
+				},
+				"required": ["name"]
+			}
+		},
+		"description": {
+			"type": "string"
+		},
+		"homepage": {
+			"default": "",
+			"type": "string"
+		},
+		"license": {
+			"default": "CC BY 4.0,MIT",
+			"type": "string"
+		},
+		"metadata": {
+			"additionalProperties": {
+				"type": "string"
+			},
+			"default": {},
+			"type": "object"
+		},
+		"mod_version": {
+			"pattern": "^(\\d+)\\.(\\d+)\\.(\\d+)(?:[-]([a-z0-9.-]+))?(?:[+]([a-z0-9.-]+))?$",
+			"type": "string"
+		},
+		"title": {
+			"type": "string"
+		}
+	},
+	"required": ["title", "description", "homepage", "contributors", "api_version", "mod_version", "license"]
+}
