@@ -1,3 +1,9 @@
 {
-	"$schema": "https://raw.github.com/Crimzega/ENoS_TwoNights/refs/heads/haxe/project/schemas/polymod_schema.json"
+	"$schema": "https://raw.githubusercontent.com/Crimzega/ENoS_TwoNights/refs/heads/main/haxe/schemas/polymod_schema.json",
+	"title": "Dummy Mod",
+	"description": "A dummy mod.",
+	"author": "Crimzega",
+	"mod_version": "1.0.0",
+	"api_version": "3.0.0",
+	"license": "CC BY 4.0,MIT"
 }

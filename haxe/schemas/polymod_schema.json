@@ -3,6 +3,7 @@
 	"type": "object",
 	"properties": {
 		"api_version": {
+			"default": "2.*",
 			"pattern": "^(\\d+)\\.(\\d+)\\.(\\d+)(?:[-]([a-z0-9.-]+))?(?:[+]([a-z0-9.-]+))?$",
 			"type": "string"
 		},
@@ -37,6 +38,7 @@
 			}
 		},
 		"description": {
+			"default": "",
 			"type": "string"
 		},
 		"homepage": {
@@ -55,12 +57,14 @@
 			"type": "object"
 		},
 		"mod_version": {
+			"default": "1.0.0",
 			"pattern": "^(\\d+)\\.(\\d+)\\.(\\d+)(?:[-]([a-z0-9.-]+))?(?:[+]([a-z0-9.-]+))?$",
 			"type": "string"
 		},
 		"title": {
+			"default": "",
 			"type": "string"
 		}
 	},
-	"required": ["title", "description", "homepage", "contributors", "api_version", "mod_version", "license"]
+	"required": ["title", "description", "api_version", "mod_version"]
 }
