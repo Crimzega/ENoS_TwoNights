@@ -3,7 +3,11 @@
 	"title": "Dummy Mod",
 	"description": "A dummy mod.",
 	"author": "Crimzega",
+	"contributors": [
+		{
+			"name": "Crimzega"
+		}
+	],
 	"mod_version": "1.0.0",
-	"api_version": "3.0.0",
-	"license": "CC BY 4.0,MIT"
+	"api_version": "3.0.0"
 }
