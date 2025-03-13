@@ -1,6 +1,6 @@
 --class-path source
 
---library discord_rpc
+--library hxdiscord_rpc
 --library flixel
 --library flixel-addons
 --library flxanimate

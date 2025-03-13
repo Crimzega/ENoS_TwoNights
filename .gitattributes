@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto eol=lf
+
+.prettierrc text
+*.bat text
+*.hx text
+*.hxml text
+*.json text
+*.md text
+*.sh text
