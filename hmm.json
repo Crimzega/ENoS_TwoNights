@@ -11,22 +11,27 @@
 			"name": "flixel",
 			"type": "git",
 			"dir": null,
-			"ref": "95aec0c6399e38ee3aeddffaedd356ff5135acf4",
-			"url": "https://github.com/FunkinCrew/flixel"
+			"ref": "e0c4cb4271849b7b0ee5dcab8bc510a7025af3fd",
+			"url": "https://github.com/HaxeFlixel/flixel"
 		},
 		{
 			"name": "flixel-addons",
 			"type": "git",
 			"dir": null,
-			"ref": "df575b00b6bb697642f9b66601ff6d044dfcaa87",
-			"url": "https://github.com/FunkinCrew/flixel-addons"
+			"ref": "be705ffd4070f6a1f72c4c67b31ca662c51e15f5",
+			"url": "https://github.com/HaxeFlixel/flixel-addons"
 		},
 		{
 			"name": "flxanimate",
 			"type": "git",
 			"dir": null,
-			"ref": "7da385ca7fd8d8067aac03bc39798d37c5598e45",
+			"ref": "b8970d2e4d875c743abe28e356a15413b1774d94",
 			"url": "https://github.com/Dot-Stuff/flxanimate"
+		},
+		{
+			"name": "hxCodec",
+			"type": "haxelib",
+			"version": "3.0.2"
 		},
 		{
 			"name": "format",
@@ -64,6 +69,16 @@
 			"name": "hxp",
 			"type": "haxelib",
 			"version": "1.3.0"
+		},
+		{
+			"name": "jsonpatch",
+			"type": "haxelib",
+			"version": "1.0.0"
+		},
+		{
+			"name": "jsonpath",
+			"type": "haxelib",
+			"version": "1.0.0"
 		},
 		{
 			"name": "lime",

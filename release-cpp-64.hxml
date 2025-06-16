@@ -1,0 +1,47 @@
+--class-path source
+
+--library flixel
+--library flixel-addons
+--library flxanimate
+--library hxcpp
+--library hxcpp-debug-server
+--library hxdiscord_rpc
+--library hxgamejolt-api
+--library jsonpatch
+--library jsonpath
+--library lime
+--library newgrounds
+--library openfl
+--library polymod
+--library thx.core
+--library thx.semver
+
+--define HAXE_OUTPUT_FILE=ENoS-TwoNights
+
+--define POLYMOD_ROOT_PATH=src
+--define POLYMOD_SCRIPT_EXT=.hscript
+--define POLYMOD_APPEND_FOLDER=game_addons
+--define POLYMOD_MERGE_FOLDER=game_changes
+--define POLYMOD_MOD_METADATA_FILE=mod.meta
+--define POLYMOD_MOD_ICON_FILE=mod_icon.png
+
+--define tools=8.2.0
+
+--define desktop
+--define lime-cffi
+--define lime-curl
+--define lime-harfbuzz
+--define lime-native
+--define lime-openal
+--define lime-opengl
+--define lime-threads
+--define lime-vorbis
+--define native
+--define openfl-native
+--define windows
+
+--dce std
+
+--main com.sulvic.twonights.entry.EntryNativeTN
+
+--cpp export/cpp-x64

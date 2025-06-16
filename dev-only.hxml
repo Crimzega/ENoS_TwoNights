@@ -1,0 +1,24 @@
+--class-path source
+
+--library flixel
+--library flixel-addons
+--library flxanimate
+--library hxcpp
+--library hxcpp-debug-server
+--library hxdiscord_rpc
+--library hxgamejolt-api
+#--library jsonpatch
+#--library jsonpath
+#--library lime
+#--library newgrounds
+#--library openfl
+#--library polymod
+#--library thx.core
+#--library thx.semver
+
+--define POLYMOD_ROOT_PATH=src
+--define POLYMOD_SCRIPT_EXT=.hscript
+--define POLYMOD_APPEND_FOLDER=game_addons
+--define POLYMOD_MERGE_FOLDER=game_changes
+--define POLYMOD_MOD_METADATA_FILE=mod.meta
+--define POLYMOD_MOD_ICON_FILE=mod_icon.png

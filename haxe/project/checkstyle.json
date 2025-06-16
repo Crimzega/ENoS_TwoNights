@@ -4,6 +4,12 @@
 		{
 			"props": {},
 			"type": "Anonymous"
+		},
+		{
+			"props": {
+				"max": 180
+			},
+			"type": "LineLength"
 		}
 	]
 }

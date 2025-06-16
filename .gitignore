@@ -1,5 +1,5 @@
 .haxelib/
 assets/transcripts/
-source/com/sulvic/enos_tn/api/ApiHelper.hx
-exports/
+source/com/sulvic/twonights/api/ApiHelper.hx
+export/
 old_build/

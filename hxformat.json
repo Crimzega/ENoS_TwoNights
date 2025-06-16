@@ -112,6 +112,6 @@
 		"whilePolicy": "noneAfter"
 	},
 	"wrapping": {
-		"maxLineLength": 120
+		"maxLineLength": 180
 	}
 }

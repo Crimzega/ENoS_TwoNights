@@ -19,7 +19,7 @@
 	},
 	"editor.detectIndentation": true,
 	"editor.insertSpaces": false,
-	"editor.rulers": [160],
+	"editor.rulers": [180],
 	"files.eol": "\n",
 	"files.associations": {
 		"*.prettierrc": "json",
@@ -37,7 +37,8 @@
 		"**/.hg": true,
 		"**/CVS": true,
 		"**/.DS_Store": true,
-		"**/Thumbs.db": true
+		"**/Thumbs.db": true,
+		"example_mods/": true
 	},
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
